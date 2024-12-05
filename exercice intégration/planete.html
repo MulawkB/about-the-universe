@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetes</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="normalise.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header class="background-image"></header>
+<body class="site-style">
+    <nav class="navbar">
+        <img src="images/logotype.png" class="logo">
+        <div class="top-menu">
+            <a href="index.html" class="text-menu">Accueil</a>
+            <a href="#" class="text-menu">Prochaine Mission</a>
+        </div>
+    </nav>
+    <div class="side-menu">
+        <a href="planete.html" class="text-menu">Planètes</a>
+        <a href="#" class="text-menu">Véhicules</a>
+        <a href="#" class="text-menu">Personnes</a>
+    </div>
+    <main class="row">
+        <section class="menu-centre text-style">
+            <div class="center-block-p2">
+                <h2>Planètes</h2>
+                <select>
+                    <option>Par population</option>
+                </select>
+                <input type="text" placeholder="Faites votre recherche">
+                <table class="tab-main">
+                    <thead>
+                        <tr>
+                        <th>Nom</th>
+                        <th>Terrain</th>
+                        </tr>
+                    </thead>
+                    <tbody id="donnees">
+                        <tr>
+                            <td>
+                                nom
+                            </td>
+                            <td>
+                                valeur
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <td>0</td>
+                        <td>resultat(s)</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section class="menu-centre text-style">
+            <div class="center-block-p2">
+                <p> selectionner le contenu à afficher !</p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="planete.js"></script>
+</html>
